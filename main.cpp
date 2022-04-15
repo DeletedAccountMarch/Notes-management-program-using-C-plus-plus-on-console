@@ -201,7 +201,6 @@ void Account::signup()
     fstream mynote;
     string name = uname+".txt";
     mynote.open(name,ios::out);
-    mynote<<"File is empty";
     
     mynote.close();
 
